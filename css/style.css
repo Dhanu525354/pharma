@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+.navbar-nav li a{
+    word-spacing: 2px;
+    color: #fff;
+    padding: 20px;
+    text-transform: capitalize;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.navbar-nav li a:hover{
+    background-color: cyan;
+    color: black;
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+    transform: scale(0.8);
+}
+.container-fluid .navbar{
+    background-color: darkgray;
+}
+.card:hover .card-body{
+    background-color: green;
+    color: #fff;
+}
+
+/* ================ */
+.footer ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    list-style-type: circle;
+}
+.footer ul li a:hover{
+    color: chartreuse;
+    border: 1px solid gray;
+}
+.recent_posts a{
+    font-size: 600;
+    text-decoration: none;
+    color: #000;
+    padding:15px;
+}
+.recent_posts a:hover{
+    background-color: antiquewhite;
+    color: chocolate;
+}
